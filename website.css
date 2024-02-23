@@ -15,18 +15,22 @@ html {
   max-width: 1500px;
 }
 
-a {
-  text-decoration: none;
+a,
+a:visited,
+a:link {
+  text-decoration: none; /* no underline */
+  color: #525b76;
+}
+a:hover {
+  color: #c96480;
 }
 
 a:visited {
   text-decoration: none; /* no underline */
-  color: #525b76;
 }
 
 a.link {
   text-decoration: none;
-  color: #525b76;
 }
 
 .myFace {
@@ -44,7 +48,7 @@ a.link {
 }
 .header h1 {
   margin-left: 62px;
-  margin-top: -50px;
+  margin-top: 50px;
   border-radius: 3px;
   font-weight: bold;
   color: #525b76;
@@ -72,6 +76,7 @@ a.link {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+  margin-left: -60px;
   font-size: -450%;
   font-size: 15px;
 }
@@ -111,16 +116,8 @@ a.link {
   border-color: none;
 }
 
-.button1:hover {
-  color: #bbbdf6;
-  text-decoration: none;
-}
-.button2:hover {
-  color: #bbbdf6;
-  text-decoration: none;
-}
 .button3:hover {
-  color: #bbbdf6;
+  color: #c96480;
   text-decoration: none;
 }
 
@@ -143,23 +140,29 @@ a.link {
   font-size: 200%;
   margin-bottom: 400px;
 }
-.reference:hover {
-  color: #bdbea9 !important;
-  text-decoration: none;
-}
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .content {
     flex-direction: column;
   }
   .left {
-    margin-left: 0px;
+    margin-left: 62px;
     margin-top: 0px;
   }
   .left2 {
-    margin-left: 0px;
+    margin-left: 62px;
   }
   .header h1 {
     margin-top: 50px;
+  }
+  .ul {
+    margin-left: 62px;
+    justify-content: none;
+    align-items: none;
+  }
+  .project {
+    margin-left: 62px;
+    justify-content: none;
+    align-items: none;
   }
 }
