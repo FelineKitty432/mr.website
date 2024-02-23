@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: #bbbdf6;
+}
+
+.body {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+a,
+a:visited,
+a:link {
+  text-decoration: none; /* no underline */
+  color: #525b76;
+}
+a:hover {
+  color: #bbbdf6;
+}
+
+.myFace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 60px;
+  width: 490x;
+  height: 464px;
+  border-radius: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 600px;
+  margin-top: -464px;
+  font-size: 250%;
+  font-weight: lighter;
+  color: #525b76;
+}
+.left2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 600px;
+  font-size: 150%;
+  margin-top: 20px;
+  color: #525b76;
+}
+.left3 {
+  margin-top: 50px;
+  font-size: -450%;
+  font-size: 15px;
+}
+.myButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 62px;
+}
+.button1 {
+  background-color: #bdbea9;
+  color: #525b76;
+  padding: 10px 0px;
+  border-radius: 3px;
+  font-style: bold;
+  border-color: none;
+}
+.button2 {
+  background-color: #bdbea9;
+  color: #525b76;
+  padding: 10px 0px;
+  margin-left: 30px;
+  border-radius: 3px;
+  font-style: bold;
+  border-color: none;
+}
+.button3 {
+  background-color: #bdbea9;
+  padding: 10px 7px;
+  border-radius: 3px;
+  color: #525b76;
+  margin-left: 25px;
+  font-style: bold;
+  border-color: none;
+}
+
+.button1:hover {
+  color: #bbbdf6;
+}
+.button2:hover {
+  color: #bbbdf6;
+}
+.button3:hover {
+  color: #bbbdf6;
+}
+
+.header h1 {
+  margin-left: 62px;
+  margin-top: -50px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #525b76;
+}
+
+.projects h1 {
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #525b76;
+  font-size: 400%;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 300 px;
+  color: #525b76;
+  font-size: 200%;
+  margin-bottom: 400px;
+}
+.reference:hover {
+  color: #bdbea9 !important;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+}
